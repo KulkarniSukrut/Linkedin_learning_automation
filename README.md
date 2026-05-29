@@ -1,113 +1,64 @@
-# Linkedin Learning Automation
-
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+# LinkedIn Learning Automation (Personal Use)
 
 ## Overview
 
-This repository contains automation scripts and utilities for interacting with LinkedIn Learning courses. The project is written entirely in Python and is designed to help automate tasks such as downloading exercise files, extracting content, or tracking course progress.
+This repository contains scripts and small utilities I wrote for my own personal automation with LinkedIn Learning course material.
+Everything here is for my own study or experimentation—not for public release or general use.
 
-> **Note:** This repository is based on the course exercise files for a LinkedIn Learning course.  
-> _Please use responsibly and ensure compliance with LinkedIn Learning's terms of service._
+> **Note:**  
+> This is a personal/private project.  
+> Scripts are written for my own environment—they may require manual setup and may not work elsewhere.
 
 ---
 
 ## Features
 
-- Automate access and downloads for LinkedIn Learning content.
-- Streamline the handling of course exercise files.
-- [TODO: Add more features as developed, e.g. track progress, parse metadata, etc.]
+- Scripts to automate basic handling of LinkedIn Learning content (for personal study).
+- Personal helpers: download, organize, and keep track of courses for myself.
+- [Personal TODO: Add more features/automation as I need them.]
 
 ---
 
-## Getting Started
+## My Setup & Usage
 
 ### Prerequisites
 
-- Python 3.7 or higher  
-- [TODO: List other prerequisites, such as pip packages, browser drivers, etc.]
+- Python 3.7+
+- Any other dependencies are listed in requirements.txt (when I remember to update it)
 
-### Installation
+### Steps (how I use it)
 
-1. **Clone the Repository**
-    ```sh
-    git clone https://github.com/KulkarniSukrut/Linkedin_learning_automation.git
-    cd Linkedin_learning_automation
-    ```
-
-2. **(Optional) Create a Virtual Environment**
-    ```sh
-    python -m venv venv
-    source venv/bin/activate  # On Windows: venv\Scripts\activate
-    ```
-
-3. **Install Dependencies**
-    ```sh
-    pip install -r requirements.txt
-    ```
-    > _If there is no `requirements.txt`, please manually install the listed dependencies in the script files._
-
----
-
-## Usage
-
-1. **Configure Script Settings**
-
-    - Edit configuration in `config.py` or `.env` file for your LinkedIn Learning credentials and preferences.  
-    - _Never share your login details. Use environment variables when possible._
-
-2. **Run the Automation Script**
+1. I keep credentials/config in `config.py` or via environment variables.
+2. To run, I open the terminal and use:
     ```sh
     python main.py
     ```
-    > _Replace `main.py` with your script’s entry point, if different._
+    _(Sometimes the entry point changes, depending on my scripts.)_
 
-3. **Features in Action**
-    - [TODO: Add CLI examples or screenshots demonstrating features.]
-
----
-
-## Folder Structure
+### Folder Structure (for my own reference)
 
 ```
 Linkedin_learning_automation/
-│
-├── scripts/             # Automation scripts
-├── utils/               # Utility modules
-├── config.py            # Configuration file
-├── requirements.txt     # Python package dependencies
-├── README.md            # This readme file
-└── main.py              # Main entry point (if available)
+├── scripts/
+├── utils/
+├── config.py
+├── requirements.txt
+├── README.md
+└── main.py
 ```
 
 ---
 
-## Contributing
+## Disclaimer & License
 
-Contributions are welcome! Feel free to open issues or submit pull requests for bug fixes, feature development, and documentation improvements.
-
-1. Fork the repo
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -am 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
----
-
-## License
-
-Distributed under the MIT License.  
-See [LICENSE](LICENSE) for more information.
-
----
-
-## Disclaimer
-
-This repository is intended for educational purposes only.  
-All scripts here are to be used in accordance with LinkedIn Learning’s terms of service. Unauthorized use or redistribution of course content is strictly prohibited.
+This repository exists for my own personal, non-commercial use only.
+I do not claim any rights over LinkedIn Learning content or automation techniques.  
+Not intended for redistribution and not maintained as a reusable tool.
 
 ---
 
 ## Contact
 
-**Sukrut Kulkarni**  
-GitHub: [KulkarniSukrut](https://github.com/KulkarniSukrut)
+You probably don’t need to contact me, but if so:
+
+- GitHub: [KulkarniSukrut](https://github.com/KulkarniSukrut)
